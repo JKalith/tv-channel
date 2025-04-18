@@ -1,0 +1,60 @@
+.containerNav {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    background-color: #001B56;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+padding-right: 10px;
+
+
+}
+
+.labelContainer {
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+}
+
+
+.label {
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    cursor: pointer;
+    margin: 10px;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  .lineLabel {
+    background-color: red;
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 2; /* mejor usar 0 para que esté al ras */
+    left: 0;
+    transition: background-color 0.3s ease;
+  }
+  .label:hover .lineLabel {
+    background-color: aqua;
+  }
+
+.logoContainer {
+    background-color: rgba(0, 128, 0, 0);
+    width: auto;
+}
+
+.logo {
+    width: 100px;
+    height: 78px;
+    object-fit: contain; /* o 'cover' según lo que necesites */
+    background-color: rgba(255, 0, 0, 0);
+  }

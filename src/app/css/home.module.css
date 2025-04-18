@@ -1,0 +1,87 @@
+.topSection {
+
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+
+.newsSection {
+    width: 100vw;
+    height: 600px;
+    background-color: #F5F5F5;
+    padding-top: 20px;
+}
+
+.aboutUsSection {
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+.mediaSection {
+    width: 100vw;
+    padding-top: 20px;
+    height: 600px;
+    background-color: #F5F5F5;
+}
+
+.formSection {
+    padding-top: 20px;
+
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.banner {
+
+    align-items: center;
+    display: flex;
+    background-color: #0F3E8C;
+    width: 100vw;
+
+    height: 40px;
+
+
+}
+
+.titleBanner {
+    background-color: #FF9E9E;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+.lineMedia {
+    background-color: rgb(0, 26, 255);
+    height: 5px;
+    width: 100vw;
+    border-radius: 5px;
+
+}
+
+.titleMedia {
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+
+
+
+}
+
+.lineContact {
+
+    background-color: red;
+    border-radius: 5px;
+    height: 5px;
+    width: 40vw;
+
+}
