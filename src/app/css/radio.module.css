@@ -1,0 +1,16 @@
+.radioContainer {
+   width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+   align-items: center;
+    text-align: center;
+    box-shadow: 0 2 3 4 rgb(146, 146, 146);
+  }
+  
+  .radioContainer h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    
+   }

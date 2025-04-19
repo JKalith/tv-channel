@@ -1,5 +1,8 @@
-import styles from "../../css/home.module.css";
+'use client'
 
+
+import styles from "../../css/home.module.css";
+import Radio from "../../components/radio/radio"
 export default function Home() {
   return (
     <div className={styles.containerMain}>
@@ -20,6 +23,39 @@ export default function Home() {
       <section className={styles.mediaSection}>
         <p className={styles.titleMedia}>Nuestros medios de comunicacion</p>
         <div className={styles.lineMedia}></div>
+
+
+<div className={styles.mediaContainer}>
+
+
+<div className={styles.radioContainer}>
+
+
+<Radio/>
+
+
+
+
+
+
+</div>
+
+<div className={styles.socialContainer}>
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
       </section>
 
       <section className={styles.formSection}>
