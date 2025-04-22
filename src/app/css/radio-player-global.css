@@ -1,36 +1,31 @@
 
 .rhap_container {
-
     border-radius: 10px;
     padding: 10px;
  box-shadow: none;
   }
   
   .rhap_main-controls-button {
-    color: #eb2550; /* azul Tailwind */
-
+    color: #eb2550; 
   }
   
 
  
   .rhap_progress-filled {
-
     display: none;
-
   }
-  /* Lade derecho de volumen */
+
   .rhap_volume-bar {
-    background-color: #616161;
+    
 width: 100%;
+}
 
-  }
-  
   .rhap_volume-indicator {
-    background-color: #00ff15;
+    background-color: #ff0000;
 
 
   }
-  /* Este es el textode tiempo */
+
 .rhap_time {
    
     font-size: 0.85rem;
@@ -42,10 +37,9 @@ width: 100%;
   }
 
 
-  /* container de la barra */
   .rhap_progress-section {
 
-    background-color: #61616100;
+    background-color: #ea000000;
 width: 105%;
   }
   .rhap_volume-controls {
@@ -57,7 +51,7 @@ width: 105%;
 
 
 
-    /*  */
+    
     .rhap_progress-indicator {
         display: none;
           }
@@ -67,7 +61,7 @@ width: 105%;
 
 
 
-        .rhap_progress-bar-show-download {
+        .rhap_progress-bar-show-download {            
             background: linear-gradient(
               270deg,
               #e91e63,
@@ -104,8 +98,6 @@ display: none;
            
           }
           .rhap_play-pause-button{
-
-
 
           }
           .rhap_additional-controls{

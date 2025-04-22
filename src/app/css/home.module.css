@@ -91,6 +91,87 @@ width: 50vw;
 
     
 }
+.logo{
+
+width: 300px;
+
+height: 300px;
+
+}
+
+.logoContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50vw;
+    height: 100%;
+
+}
+.titleHome{
+
+font-size: 4rem;
+font-weight: 600;
+text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+
+}
+.subtitleHome{
+color: #0f3e8c;
+    font-size: 3rem;
+    font-weight: 600;
+
+text-align: right;
+
+}
+.infoContainer{
+align-items: center;
+justify-content: center;
+display: flex;
+width: 50vw;
+height: 100%;
+flex-direction: column;
+
+
+
+
+}
+
+
+
+
+
+
+.sloganContainer{
+background-color: rgba(255, 0, 0, 0);
+padding-left: 20px;
+height: 200px;
+align-items: center;
+display: flex;
+
+} 
+
+.slogan{
+
+font-weight: 700;
+font-size: 3rem;
+
+
+}
+.lineSlogan{
+background-color: red;
+width: 900px;
+height: 13px;
+border-radius: 20px;
+}
+
+.topContainer{
+    display: flex;
+  
+height: 400px;
+
+}
+
+
+
 
 .socialContainer{
 

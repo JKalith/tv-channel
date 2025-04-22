@@ -6,7 +6,70 @@ import Radio from "../../components/radio/radio"
 export default function Home() {
   return (
     <div className={styles.containerMain}>
-      <section className={styles.topSection}></section>
+      <section className={styles.topSection}>
+
+
+<div className={styles.topContainer}>
+
+<div className={styles.infoContainer}>
+<div>
+
+
+
+<p className={styles.titleHome}>
+SAN VITO TELEVISIÓN 
+</p>
+<p className={styles.subtitleHome}>
+El canal de Coto Brus
+</p>
+    
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+<div className={styles.logoContainer}>
+        <img src="/logo/logoSTV.svg" alt="logo" className={styles.logo} />
+      </div>
+
+
+
+
+
+</div>
+<div className={styles.sloganContainer
+}>
+
+
+
+    <div>
+
+
+<p className={styles.slogan}>
+
+Vive la experiencia, vive la información 
+</p>
+<div className={styles.lineSlogan}> </div>
+</div>        
+    </div>
+</section>
+
+
+
+
+
+
+
+
 
       <section className={styles.newsSection}>
         <div className={styles.banner}>
