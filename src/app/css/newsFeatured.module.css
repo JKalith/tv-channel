@@ -1,0 +1,60 @@
+.card {
+margin-left: 0.3vw;
+margin-right: 0.3vw;
+    padding: 1rem;
+    border: 1px solid #b4b4b484;
+    border-Radius: 8px;
+    box-Shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    flex-Direction: column;
+    justify-Content: space-between;
+}
+
+
+.mainContainer{
+    
+    max-Width: 95%;
+    
+    
+ margin: 0 auto; 
+ 
+ 
+ padding: '2rem 0';
+
+}
+.flecha {
+ background-color: rgb(184, 0, 0);
+ color: rgb(0, 255, 128);
+    bottom: 10px;
+    left: 50%;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    opacity: 0.8;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
