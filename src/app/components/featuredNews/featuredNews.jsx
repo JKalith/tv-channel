@@ -39,7 +39,7 @@ export default function FeaturedNews() {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await fetch('/api/news');
+        const response = await fetch('/api/news/');
         if (!response.ok) throw new Error('Error al cargar las noticias');
         const data = await response.json();
         setNews(data);

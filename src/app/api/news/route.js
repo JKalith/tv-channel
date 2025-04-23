@@ -5,7 +5,12 @@ import { parseStringPromise } from 'xml2js';
 export async function GET() {
   try {
     const rssUrl = 'https://www.crhoy.com/feed/';
-    const response = await axios.get(rssUrl);
+    const response = await axios.get(rssUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; MyRSSApp/1.0; +https://tv-channel-drab.vercel.app/)'
+      }
+    });
+    
     const data = await parseStringPromise(response.data, { trim: true });
 
     // Extraer la URL de la imagen desde el contenido de la descripción
