@@ -10,7 +10,7 @@ export default function Home() {
         <div className={styles.topContainer}>
           <div className={styles.infoContainer}>
             <div>
-              <p className={styles.titleHome}>SAN VITO TELEVISIÓN</p>
+              <p className={styles.titleHome}>SAN VITO <br/>TELEVISIÓN</p>
               <p className={styles.subtitleHome}>El canal de Coto Brus</p>
             </div>
           </div>
@@ -63,7 +63,11 @@ export default function Home() {
             <Radio />
           </div>
 
-          <div className={styles.socialContainer}></div>
+          <div className={styles.socialContainer}>
+
+    En Desarrollo
+
+          </div>
         </div>
       </section>
 
