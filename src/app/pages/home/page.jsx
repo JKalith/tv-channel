@@ -3,6 +3,7 @@
 import styles from "../../css/home.module.css";
 import Radio from "../../components/radio/radio";
 import FeaturedNews from "@/app/components/featuredNews/featuredNews";
+import VideoChannel from "@/app/components/videoChannel/VideoChannel"
 export default function Home() {
   return (
     <div className={styles.containerMain}>
@@ -75,6 +76,7 @@ export default function Home() {
         <p className={styles.titleMedia}>Contactenos</p>
         <div className={styles.lineContact}></div>
       </section>
+      <VideoChannel/>
     </div>
   );
 }

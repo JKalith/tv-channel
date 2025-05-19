@@ -3,7 +3,11 @@
   height: 600px;
   background-color: rgb(255, 255, 255);
 }
-
+.containerChannel{
+width: 800px;
+height: 800px;
+background-color: red;
+}
 .newsSection {
   width: 100vw;
   height: 600px;
