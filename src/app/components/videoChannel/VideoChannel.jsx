@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import LiveTVPlayer from '@/app/components/videoChannel/LiveTVPlayer';
-
+import styles from '@/app/css/videoChannel.module.css'
 const channels = {
   'Canal 13 - SINART': 'http://stream01.cyberfuel.com/SinartCanal13/livestream/playlist.m3u8',
   'SMO TV': 'http://199.217.118.90:1935/smotv/stream/playlist.m3u8',
@@ -15,8 +15,8 @@ export default function LiveTVPage() {
   const [currentChannel, setCurrentChannel] = useState(Object.keys(channels)[0]);
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>Canal en vivo: {currentChannel}</h1>
+    <div className={styles.containerTv} style={{ padding: '2rem' }}>
+      <p>Canal en vivo: {currentChannel}</p>
       <div style={{ marginBottom: '1rem' }}>
         {Object.keys(channels).map((name) => (
           <button

@@ -54,7 +54,7 @@ export default function Home() {
           <p className={styles.titleBanner}>Quienes Somos</p>
         </div>
       </section>
-
+ 
       <section className={styles.mediaSection}>
         <p className={styles.titleMedia}>Nuestros medios de comunicacion</p>
         <div className={styles.lineMedia}></div>
@@ -66,7 +66,7 @@ export default function Home() {
 
           <div className={styles.socialContainer}>
 
-    En Desarrollo
+     <VideoChannel/>
 
           </div>
         </div>
@@ -76,7 +76,7 @@ export default function Home() {
         <p className={styles.titleMedia}>Contactenos</p>
         <div className={styles.lineContact}></div>
       </section>
-      <VideoChannel/>
+
     </div>
   );
 }
